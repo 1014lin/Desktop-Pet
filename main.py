@@ -9,6 +9,7 @@ from PyQt5.QtCore import QThread
 from PyQt5.QtMultimedia import QSound
 
 class TablePet(QWidget):
+    c=0
     # 初始化
     def __init__(self):
         super(TablePet, self).__init__()
@@ -27,6 +28,7 @@ class TablePet(QWidget):
 
     # 初始化UI
     def initUi(self):
+        self.pic =0
         self.w = 1850
         self.h = 910
         self.direction = 1
@@ -34,7 +36,7 @@ class TablePet(QWidget):
         self.setGeometry(self.w, self.h, 150, 150)
         self.lbl = QLabel(self)
         self.frame = 1
-        self.pic_url = 'pet\Chicken\c' + str(self.direction)+str(self.action)+str(self.frame) + '.png'
+        self.pic_url = 'pet\Chicken\c'+str(self.pic)+ str(self.direction)+str(self.action)+str(self.frame) + '.png'
         self.pm = QPixmap(self.pic_url)
         self.lbl.setPixmap(self.pm)
         # 背景透明等效果
@@ -47,10 +49,12 @@ class TablePet(QWidget):
     # 系统托盘
     def tray(self):
         tp = QSystemTrayIcon(self)
-        tp.setIcon(QIcon('pet\Chicken\c111.png'))
+        tp.setIcon(QIcon('pet\Chicken\c0111.png'))
         ation_quit = QAction('退出', self, triggered=self.quit)
+        action_change = QAction('更換角色',self, triggered=self.change)
         tpMenu = QMenu(self)
         tpMenu.addAction(ation_quit)
+        tpMenu.addAction(action_change)
         tp.setContextMenu(tpMenu)
         tp.show()
 
@@ -64,8 +68,10 @@ class TablePet(QWidget):
     # 发出叫声
     def playSound(self):
         self.action = 2
-        QSound.play("pet\Chicken\jier.wav")
-
+        if self.pic==0:
+            QSound.play("pet\Chicken\jier.wav")
+        else :
+            QSound.play("pet\Chicken\qiye.wav")
     # 随机动作
     def randomAct(self):
         temp = random.random()
@@ -84,7 +90,7 @@ class TablePet(QWidget):
             self.frame += 1
         else:
             self.frame = 1
-        self.pic_url = 'pet\Chicken\c' + str(self.direction)+str(self.action)+str(self.frame) + '.png'
+        self.pic_url = 'pet\Chicken\c'+str(self.pic)+str(self.direction)+str(self.action)+str(self.frame) + '.png'
         self.pm = QPixmap(self.pic_url)
         # 检测是否飞行
         if self.h != 910:
@@ -137,6 +143,14 @@ class TablePet(QWidget):
     def quit(self):
         self.close()
         sys.exit()
+    #更換角色
+    def change(self):
+        if self.pic==0:
+            self.pic=3
+        else :
+            self.pic=0
+
+        
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
