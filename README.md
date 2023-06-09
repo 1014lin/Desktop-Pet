@@ -3,9 +3,6 @@
 ## 成果演示
 ### 動作:
 - 待機
-<div align="center">
-	<img src="[./raw-docs/img/editor.png](https://hackmd.io/_uploads/r1NT0pewh.png)" alt="Editor" width="500">
-</div>
 ![](https://hackmd.io/_uploads/r1NT0pewh.png)
 - 托動
 ![](https://hackmd.io/_uploads/SyV6CTlP3.png)
