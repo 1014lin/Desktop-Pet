@@ -1,5 +1,4 @@
 # 桌面寵物
-[GITHUB連結](https://github.com/1014lin/Desktop-Pet)
 ## 成果演示
 ### 動作:
 - 待機
