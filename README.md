@@ -18,6 +18,7 @@
 ![](https://hackmd.io/_uploads/r1NT0pewh.png)
 ### 系統托盤
 - 可在托盤中更改角色或者關閉桌寵
+
 ![](https://hackmd.io/_uploads/SkIs0_lvh.png)
 # 參考資訊
 ## 使用程式網站
