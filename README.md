@@ -11,6 +11,7 @@
 - 特殊觸摸
 
 ![](https://hackmd.io/_uploads/r1NxeAgvh.png)
+
 連續點擊後，會發出音效
 - 墜落
 
