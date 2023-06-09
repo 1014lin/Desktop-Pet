@@ -13,8 +13,10 @@
 ![](https://hackmd.io/_uploads/Sk4pCpxP3.png)
 ### 角色:
 - 角色:埃及爾
+
 ![](https://hackmd.io/_uploads/ryVTC6xDh.png)
 - 角色:企業
+
 ![](https://hackmd.io/_uploads/r1NT0pewh.png)
 ### 系統托盤
 - 可在托盤中更改角色或者關閉桌寵
