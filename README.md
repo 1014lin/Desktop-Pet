@@ -3,13 +3,17 @@
 ## 成果演示
 ### 動作:
 - 待機
+
 ![](https://hackmd.io/_uploads/r1NT0pewh.png)
 - 托動
+
 ![](https://hackmd.io/_uploads/SyV6CTlP3.png)
 - 特殊觸摸
+
 ![](https://hackmd.io/_uploads/r1NxeAgvh.png)
 連續點擊後，會發出音效
 - 墜落
+
 ![](https://hackmd.io/_uploads/Sk4pCpxP3.png)
 ### 角色:
 - 角色:埃及爾
