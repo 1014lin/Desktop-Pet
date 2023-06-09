@@ -1,9 +1,7 @@
 # 桌面寵物
-[GITHUB連結](https://github.com/1014lin/Desktop-Pet)
 ## 成果演示
 ### 動作:
-- 待機
-![](https://hackmd.io/_uploads/r1NT0pewh.png =50%x)
+![待機](https://hackmd.io/_uploads/r1NT0pewh.png =50%x)
 - 托動
 ![](https://hackmd.io/_uploads/SyV6CTlP3.png =50%x)
 - 特殊觸摸
