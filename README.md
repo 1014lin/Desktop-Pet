@@ -1,17 +1,24 @@
 # 桌面寵物
+[GITHUB連結](https://github.com/1014lin/Desktop-Pet)
 ## 成果演示
 ### 動作:
-![](https://hackmd.io/_uploads/r1NT0pewh.png =50%x)
-![](https://hackmd.io/_uploads/SyV6CTlP3.png =50%x)
-![](https://hackmd.io/_uploads/r1NxeAgvh.png =50%x)
+- 待機
+![](https://hackmd.io/_uploads/r1NT0pewh.png)
+- 托動
+![](https://hackmd.io/_uploads/SyV6CTlP3.png)
+- 特殊觸摸
+![](https://hackmd.io/_uploads/r1NxeAgvh.png)
 連續點擊後，會發出音效
-![](https://hackmd.io/_uploads/Sk4pCpxP3.png =50%x)
+- 墜落
+![](https://hackmd.io/_uploads/Sk4pCpxP3.png)
 ### 角色:
-![](https://hackmd.io/_uploads/ryVTC6xDh.png =50%x)
-![](https://hackmd.io/_uploads/r1NT0pewh.png =50%x)
+- 角色:埃及爾
+![](https://hackmd.io/_uploads/ryVTC6xDh.png)
+- 角色:企業
+![](https://hackmd.io/_uploads/r1NT0pewh.png)
 ### 系統托盤
-可在托盤中更改角色或者關閉桌寵
-![](https://hackmd.io/_uploads/SkIs0_lvh.png =50%x)
+- 可在托盤中更改角色或者關閉桌寵
+![](https://hackmd.io/_uploads/SkIs0_lvh.png)
 # 參考資訊
 ## 使用程式網站
 - [教你如何用python在桌面上養一隻雞 ](https://youtu.be/_gqB07GqrC8)
